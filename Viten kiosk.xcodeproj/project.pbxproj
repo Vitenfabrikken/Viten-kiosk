@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17DAC6821CD0A37F00D9454E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DAC6811CD0A37F00D9454E /* AppDelegate.swift */; };
+		17DAC6841CD0A37F00D9454E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DAC6831CD0A37F00D9454E /* ViewController.swift */; };
+		17DAC6871CD0A37F00D9454E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DAC6851CD0A37F00D9454E /* Main.storyboard */; };
+		17DAC6891CD0A37F00D9454E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DAC6881CD0A37F00D9454E /* Assets.xcassets */; };
+		17DAC68C1CD0A37F00D9454E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DAC68A1CD0A37F00D9454E /* LaunchScreen.storyboard */; };
+		17DAC6971CD0A37F00D9454E /* Viten_kioskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DAC6961CD0A37F00D9454E /* Viten_kioskTests.swift */; };
+		17DAC6A21CD0A37F00D9454E /* Viten_kioskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DAC6A11CD0A37F00D9454E /* Viten_kioskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17DAC6931CD0A37F00D9454E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DAC6761CD0A37F00D9454E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17DAC67D1CD0A37F00D9454E;
+			remoteInfo = "Viten kiosk";
+		};
+		17DAC69E1CD0A37F00D9454E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DAC6761CD0A37F00D9454E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17DAC67D1CD0A37F00D9454E;
+			remoteInfo = "Viten kiosk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17DAC67E1CD0A37F00D9454E /* Viten kiosk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viten kiosk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DAC6811CD0A37F00D9454E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17DAC6831CD0A37F00D9454E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17DAC6861CD0A37F00D9454E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17DAC6881CD0A37F00D9454E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17DAC68B1CD0A37F00D9454E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17DAC68D1CD0A37F00D9454E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DAC6921CD0A37F00D9454E /* Viten kioskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Viten kioskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DAC6961CD0A37F00D9454E /* Viten_kioskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viten_kioskTests.swift; sourceTree = "<group>"; };
+		17DAC6981CD0A37F00D9454E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DAC69D1CD0A37F00D9454E /* Viten kioskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Viten kioskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DAC6A11CD0A37F00D9454E /* Viten_kioskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viten_kioskUITests.swift; sourceTree = "<group>"; };
+		17DAC6A31CD0A37F00D9454E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17DAC67B1CD0A37F00D9454E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DAC68F1CD0A37F00D9454E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DAC69A1CD0A37F00D9454E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17DAC6751CD0A37F00D9454E = {
+			isa = PBXGroup;
+			children = (
+				17DAC6801CD0A37F00D9454E /* Viten kiosk */,
+				17DAC6951CD0A37F00D9454E /* Viten kioskTests */,
+				17DAC6A01CD0A37F00D9454E /* Viten kioskUITests */,
+				17DAC67F1CD0A37F00D9454E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17DAC67F1CD0A37F00D9454E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17DAC67E1CD0A37F00D9454E /* Viten kiosk.app */,
+				17DAC6921CD0A37F00D9454E /* Viten kioskTests.xctest */,
+				17DAC69D1CD0A37F00D9454E /* Viten kioskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17DAC6801CD0A37F00D9454E /* Viten kiosk */ = {
+			isa = PBXGroup;
+			children = (
+				17DAC6811CD0A37F00D9454E /* AppDelegate.swift */,
+				17DAC6831CD0A37F00D9454E /* ViewController.swift */,
+				17DAC6851CD0A37F00D9454E /* Main.storyboard */,
+				17DAC6881CD0A37F00D9454E /* Assets.xcassets */,
+				17DAC68A1CD0A37F00D9454E /* LaunchScreen.storyboard */,
+				17DAC68D1CD0A37F00D9454E /* Info.plist */,
+			);
+			path = "Viten kiosk";
+			sourceTree = "<group>";
+		};
+		17DAC6951CD0A37F00D9454E /* Viten kioskTests */ = {
+			isa = PBXGroup;
+			children = (
+				17DAC6961CD0A37F00D9454E /* Viten_kioskTests.swift */,
+				17DAC6981CD0A37F00D9454E /* Info.plist */,
+			);
+			path = "Viten kioskTests";
+			sourceTree = "<group>";
+		};
+		17DAC6A01CD0A37F00D9454E /* Viten kioskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17DAC6A11CD0A37F00D9454E /* Viten_kioskUITests.swift */,
+				17DAC6A31CD0A37F00D9454E /* Info.plist */,
+			);
+			path = "Viten kioskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17DAC67D1CD0A37F00D9454E /* Viten kiosk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DAC6A61CD0A37F00D9454E /* Build configuration list for PBXNativeTarget "Viten kiosk" */;
+			buildPhases = (
+				17DAC67A1CD0A37F00D9454E /* Sources */,
+				17DAC67B1CD0A37F00D9454E /* Frameworks */,
+				17DAC67C1CD0A37F00D9454E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Viten kiosk";
+			productName = "Viten kiosk";
+			productReference = 17DAC67E1CD0A37F00D9454E /* Viten kiosk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17DAC6911CD0A37F00D9454E /* Viten kioskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DAC6A91CD0A37F00D9454E /* Build configuration list for PBXNativeTarget "Viten kioskTests" */;
+			buildPhases = (
+				17DAC68E1CD0A37F00D9454E /* Sources */,
+				17DAC68F1CD0A37F00D9454E /* Frameworks */,
+				17DAC6901CD0A37F00D9454E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17DAC6941CD0A37F00D9454E /* PBXTargetDependency */,
+			);
+			name = "Viten kioskTests";
+			productName = "Viten kioskTests";
+			productReference = 17DAC6921CD0A37F00D9454E /* Viten kioskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17DAC69C1CD0A37F00D9454E /* Viten kioskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DAC6AC1CD0A37F00D9454E /* Build configuration list for PBXNativeTarget "Viten kioskUITests" */;
+			buildPhases = (
+				17DAC6991CD0A37F00D9454E /* Sources */,
+				17DAC69A1CD0A37F00D9454E /* Frameworks */,
+				17DAC69B1CD0A37F00D9454E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17DAC69F1CD0A37F00D9454E /* PBXTargetDependency */,
+			);
+			name = "Viten kioskUITests";
+			productName = "Viten kioskUITests";
+			productReference = 17DAC69D1CD0A37F00D9454E /* Viten kioskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17DAC6761CD0A37F00D9454E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Vitenfabrikken;
+				TargetAttributes = {
+					17DAC67D1CD0A37F00D9454E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					17DAC6911CD0A37F00D9454E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 17DAC67D1CD0A37F00D9454E;
+					};
+					17DAC69C1CD0A37F00D9454E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 17DAC67D1CD0A37F00D9454E;
+					};
+				};
+			};
+			buildConfigurationList = 17DAC6791CD0A37F00D9454E /* Build configuration list for PBXProject "Viten kiosk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17DAC6751CD0A37F00D9454E;
+			productRefGroup = 17DAC67F1CD0A37F00D9454E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17DAC67D1CD0A37F00D9454E /* Viten kiosk */,
+				17DAC6911CD0A37F00D9454E /* Viten kioskTests */,
+				17DAC69C1CD0A37F00D9454E /* Viten kioskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17DAC67C1CD0A37F00D9454E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DAC68C1CD0A37F00D9454E /* LaunchScreen.storyboard in Resources */,
+				17DAC6891CD0A37F00D9454E /* Assets.xcassets in Resources */,
+				17DAC6871CD0A37F00D9454E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DAC6901CD0A37F00D9454E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DAC69B1CD0A37F00D9454E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17DAC67A1CD0A37F00D9454E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DAC6841CD0A37F00D9454E /* ViewController.swift in Sources */,
+				17DAC6821CD0A37F00D9454E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DAC68E1CD0A37F00D9454E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DAC6971CD0A37F00D9454E /* Viten_kioskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DAC6991CD0A37F00D9454E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DAC6A21CD0A37F00D9454E /* Viten_kioskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17DAC6941CD0A37F00D9454E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17DAC67D1CD0A37F00D9454E /* Viten kiosk */;
+			targetProxy = 17DAC6931CD0A37F00D9454E /* PBXContainerItemProxy */;
+		};
+		17DAC69F1CD0A37F00D9454E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17DAC67D1CD0A37F00D9454E /* Viten kiosk */;
+			targetProxy = 17DAC69E1CD0A37F00D9454E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17DAC6851CD0A37F00D9454E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17DAC6861CD0A37F00D9454E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17DAC68A1CD0A37F00D9454E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17DAC68B1CD0A37F00D9454E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17DAC6A41CD0A37F00D9454E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		17DAC6A51CD0A37F00D9454E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17DAC6A71CD0A37F00D9454E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Viten kiosk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vitenfabrikken.Viten-kiosk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17DAC6A81CD0A37F00D9454E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Viten kiosk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vitenfabrikken.Viten-kiosk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17DAC6AA1CD0A37F00D9454E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Viten kioskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vitenfabrikken.Viten-kioskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viten kiosk.app/Viten kiosk";
+			};
+			name = Debug;
+		};
+		17DAC6AB1CD0A37F00D9454E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Viten kioskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vitenfabrikken.Viten-kioskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viten kiosk.app/Viten kiosk";
+			};
+			name = Release;
+		};
+		17DAC6AD1CD0A37F00D9454E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Viten kioskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vitenfabrikken.Viten-kioskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Viten kiosk";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		17DAC6AE1CD0A37F00D9454E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Viten kioskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vitenfabrikken.Viten-kioskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Viten kiosk";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17DAC6791CD0A37F00D9454E /* Build configuration list for PBXProject "Viten kiosk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DAC6A41CD0A37F00D9454E /* Debug */,
+				17DAC6A51CD0A37F00D9454E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17DAC6A61CD0A37F00D9454E /* Build configuration list for PBXNativeTarget "Viten kiosk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DAC6A71CD0A37F00D9454E /* Debug */,
+				17DAC6A81CD0A37F00D9454E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17DAC6A91CD0A37F00D9454E /* Build configuration list for PBXNativeTarget "Viten kioskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DAC6AA1CD0A37F00D9454E /* Debug */,
+				17DAC6AB1CD0A37F00D9454E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17DAC6AC1CD0A37F00D9454E /* Build configuration list for PBXNativeTarget "Viten kioskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DAC6AD1CD0A37F00D9454E /* Debug */,
+				17DAC6AE1CD0A37F00D9454E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17DAC6761CD0A37F00D9454E /* Project object */;
+}
